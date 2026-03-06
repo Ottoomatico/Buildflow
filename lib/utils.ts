@@ -1,5 +1,3 @@
-import { type ClassValue, clsx } from 'clsx';
-
 /** Merge class names (lightweight alternative to clsx + twMerge for this project) */
 export function cn(...inputs: (string | undefined | null | false)[]) {
   return inputs.filter(Boolean).join(' ');
